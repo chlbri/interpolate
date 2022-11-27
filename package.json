@@ -1,7 +1,8 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "name": "@bemedev/interpolate",
+  "description": "Create interpolation between two number arrays or an number array as input and a string one as output.",
   "author": {
     "email": "bri_lvi@icloud.com",
     "name": "chlbri",
@@ -32,7 +33,6 @@
     "postpublish": "git fetch & git pull",
     "prepublishOnly": "pnpm run build && pnpm run lint"
   },
-
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "@typescript-eslint/parser": "^5.43.0",
